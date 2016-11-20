@@ -1,6 +1,6 @@
 {
   "name": "karma-config-narazaka-ts-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a shared karma config",
   "keywords": [],
   "main": "./karma.conf.js",
