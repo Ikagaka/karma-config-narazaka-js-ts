@@ -1,0 +1,28 @@
+{
+  "name": "karma-config-narazaka-ts-js",
+  "version": "1.0.0",
+  "description": "a shared karma config",
+  "keywords": [],
+  "main": "./karma.conf.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js src test"
+  },
+  "peerDependencies": {
+    "webpack-config-narazaka-js-ts": ">= 0.2.0 < 1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-config-narazaka": "^1.0.1"
+  },
+  "url": "https://github.com/Narazaka/karma-config-narazaka-ts-js",
+  "author": "Narazaka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Narazaka/karma-config-narazaka-ts-js.git"
+  }
+}
