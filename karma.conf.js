@@ -24,7 +24,9 @@ module.exports = (config) =>
     detectBrowsers: {
       postDetection(availableBrowsers) {
         const result = availableBrowsers;
-        if (process.env.TRAVIS) {
+        if (process.env.CLI) {
+          return ["PhantomJS"];
+        } else if (process.env.TRAVIS) {
           const chromeIndex = availableBrowsers.indexOf("Chrome");
           if (chromeIndex >= 0) {
             result.splice(chromeIndex, 1);
