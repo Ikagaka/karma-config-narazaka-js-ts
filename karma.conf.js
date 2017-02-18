@@ -2,7 +2,8 @@ const webpackConfig = require("webpack-config-narazaka-ts-js").webTest;
 
 module.exports = (config) =>
   config.set({
-    frameworks: ["detectBrowsers", "mocha"],
+    browsers:   ["PhantomJS"],
+    frameworks: ["mocha"],
     files:      [
       "test/**/*.js",
       "test/**/*.ts",
